@@ -23,18 +23,28 @@
       "@context": "https://schema.org",
       "@type": "HouseCleaningService",
       "name": "نقاء لخدمات النظافة",
-      "image": "https://images.unsplash.com/photo-1581578731117-104f2a863a30?auto=format&fit=crop&w=1500&q=80",
+      "image": [
+        "https://images.unsplash.com/photo-1581578731117-104f2a863a30?auto=format&fit=crop&w=1500&q=80"
+      ],
       "description": "شركة نظافة في السعودية - خدمات تنظيف منازل، فلل، مكيفات، ومكافحة حشرات بأفضل الأسعار.",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "شارع الملك فهد",
         "addressCountry": "SA",
         "addressRegion": "Riyadh",
-        "addressLocality": "Riyadh"
+        "addressLocality": "Riyadh",
+        "postalCode": "12211"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 24.7136,
+        "longitude": 46.6753
       },
       "telephone": "+201110760081",
       "priceRange": "$$",
       "areaServed": ["Riyadh", "Jeddah", "Dammam"],
-      "openingHoursSpecification": {
+      "openingHoursSpecification": [
+        {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": [
           "Monday",
@@ -47,7 +57,8 @@
         ],
         "opens": "00:00",
         "closes": "23:59"
-      }
+        }
+      ]
     }
     </script>
 </head>
@@ -92,6 +103,11 @@
             </div>
         </div>
     </section>
+
+    <!-- رقم الهاتف البارز -->
+    <div class="container highlight-phone">
+        <h2>للحجز والاستفسار: <a href="tel:+201110760081">+201110760081</a></h2>
+    </div>
 
     <!-- قسم الخدمات -->
     <section id="services" class="services container">
