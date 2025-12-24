@@ -14,6 +14,11 @@
     font-family: 'Cairo', sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
     background-color: var(--bg-light);
     color: var(--text-color);
@@ -653,20 +658,11 @@ footer {
 /* تأثير الظهور عند التمرير (Fade In Animation) */
 .fade-in {
     opacity: 0;
-    transition: all 1s ease-out;
     transition: opacity 1s ease-out;
 }
 
-/* الحركات المختلفة */
-.fade-in:not(.from-left):not(.from-right):not(.zoom) { transform: translateY(50px); } /* الافتراضي للأعلى */
-
-.fade-in.from-left { transform: translateX(-50px); }
-.fade-in.from-right { transform: translateX(50px); }
-.fade-in.zoom { transform: scale(0.8); }
-
 .fade-in.visible {
     opacity: 1;
-    transform: translate(0,0) scale(1);
 }
 
 /* التجاوب مع الجوال */
