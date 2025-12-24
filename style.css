@@ -596,7 +596,7 @@ footer {
 /* رقم الهاتف البارز */
 .highlight-phone {
     text-align: center;
-    margin: 50px auto 0;
+    margin: 20px auto 40px;
 }
 .highlight-phone h2 {
     color: var(--dark-blue);
@@ -654,6 +654,7 @@ footer {
 .fade-in {
     opacity: 0;
     transition: all 1s ease-out;
+    transition: opacity 1s ease-out;
 }
 
 /* الحركات المختلفة */
