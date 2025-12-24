@@ -16,11 +16,15 @@
                     <i class="fas fa-sparkles"></i> نقاء <span>للنظافة</span>
                 </a>
             </div>
-            <nav>
+            <nav id="navbar">
                 <ul>
                     <li><a href="index.html">العودة للرئيسية</a></li>
+                    <li><a href="privacy-policy.html" class="active">سياسة الخصوصية</a></li>
                 </ul>
             </nav>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
 
@@ -49,5 +53,11 @@
             <p>جميع الحقوق محفوظة &copy; 2023 شركة نقاء للنظافة</p>
         </div>
     </footer>
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('navbar');
+            nav.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>

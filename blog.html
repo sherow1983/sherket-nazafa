@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدونة نقاء - نصائح شركات التنظيف ومكافحة الحشرات</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html" style="color: inherit; text-decoration: none;">
+                    <i class="fas fa-sparkles"></i> نقاء <span>للنظافة</span>
+                </a>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="index.html#services">خدماتنا</a></li>
+                    <li><a href="blog.html" class="active">المدونة</a></li>
+                    <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+                    <li><a href="index.html#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="blog-header">
+        <div class="container">
+            <h1>مدونة نقاء لخدمات التنظيف</h1>
+            <p>دليلك الشامل لأفضل طرق تنظيف المنازل، صيانة المكيفات، ومكافحة الحشرات في السعودية.</p>
+        </div>
+    </section>
+
+    <section class="container blog-grid">
+        <!-- مقال 1 -->
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4f9d?auto=format&fit=crop&w=600&q=80" alt="تنظيف المكيفات" class="blog-img">
+            <div class="blog-info">
+                <span class="blog-date"><i class="far fa-calendar-alt"></i> 27 أكتوبر 2023</span>
+                <h3 class="blog-title">5 علامات تؤكد حاجة مكيفك لغسيل وصيانة فورية</h3>
+                <p class="blog-excerpt">هل تبحث عن شركة تنظيف مكيفات؟ تعرف على أهم العلامات التي تشير إلى انسداد فلاتر المكيف وحاجته للغسيل لضمان تبريد قوي وتوفير في الكهرباء.</p>
+                <a href="blog-post-1.html" class="read-more">اقرأ المزيد <i class="fas fa-arrow-left"></i></a>
+            </div>
+        </article>
+
+        <!-- مقال 2 (مثال) -->
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=600&q=80" alt="تنظيف الكنب" class="blog-img">
+            <div class="blog-info">
+                <span class="blog-date"><i class="far fa-calendar-alt"></i> 20 أكتوبر 2023</span>
+                <h3 class="blog-title">أفضل طرق تنظيف الكنب والمجالس من البقع الصعبة</h3>
+                <p class="blog-excerpt">نصائح خبراء التنظيف لإزالة بقع القهوة والشاي من الكنب والمجالس. تعرف على كيفية الحفاظ على مفروشاتك نظيفة ومعقمة بأدوات منزلية بسيطة.</p>
+                <a href="#" class="read-more">اقرأ المزيد <i class="fas fa-arrow-left"></i></a>
+            </div>
+        </article>
+
+        <!-- مقال 3 (مثال) -->
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=600&q=80" alt="مكافحة الحشرات" class="blog-img">
+            <div class="blog-info">
+                <span class="blog-date"><i class="far fa-calendar-alt"></i> 15 أكتوبر 2023</span>
+                <h3 class="blog-title">دليل مكافحة الحشرات المنزلية: الوقاية والعلاج</h3>
+                <p class="blog-excerpt">كيف تحمي منزلك من الصراصير والنمل في الصيف؟ نصائح من أفضل شركة مكافحة حشرات بالسعودية للتخلص من الآفات بطرق آمنة وفعالة.</p>
+                <a href="#" class="read-more">اقرأ المزيد <i class="fas fa-arrow-left"></i></a>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                &copy; 2023 جميع الحقوق محفوظة لشركة نقاء للنظافة
+                | <a href="privacy-policy.html" style="color: #ddd; text-decoration: underline;">سياسة الخصوصية</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('navbar');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
