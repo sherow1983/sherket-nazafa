@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://sherow1982.github.io/sherket-nazafa/sitemap.xml
+
+Sitemap: https://sherow1983.github.io/sherket-nazafa/sitemap.xml
